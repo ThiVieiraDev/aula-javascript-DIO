@@ -1,3 +1,34 @@
+
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar"
+    // alert("Thank you for this click");
+}
+
+function redirecionar() {
+    window.open("https://www.google.com/"); //abre em outra aba
+    window.location.href = "https://github.com/ThiVieiraDev"; //abre na mesma aba
+}
+
+function trocar(elemento) {
+    // document.getElementById("mouseover").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse"
+    // alert("teste");
+}
+
+function voltar(elemento) {
+    // document.getElementById("mouseover").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui"
+}
+
+function load(){
+    alert("Pagina carregada");
+}
+
+function funcaoChange(elemento) {
+    console.log(elemento.value);
+}
+
+
 /* Aprendendo funções em JS */
 // function soma(n1, n2){
 //     return n1 + n2;

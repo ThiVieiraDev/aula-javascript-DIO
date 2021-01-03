@@ -5,7 +5,17 @@
         <meta charset="utf-8">
         <script type="text/javascript" src="./js/main.js"></script>
     </head>
-    <body>
+    <body onload="load()">
         <h1>Minha página</h1>
+        <button type="button" onClick="clicou()">Clique aqui</button>
+        <p id="agradecimento" onClick="redirecionar()"></p>
+        <p id="mouseover" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+        <p id="mouseover" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+
+        <select name="" id="" onchange="funcaoChange(this)">
+            <option value="R$ 49,90">R$ 49,90</option>
+            <option value="R$ 74,90">R$ 74,90</option>
+            <option value="R$ 99,90">R$ 99,90</option>
+        </select>
     </body>
 </html>
