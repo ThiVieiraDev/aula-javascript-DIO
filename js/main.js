@@ -1,3 +1,10 @@
+/* Aprendendo funções em JS */
+// function soma(n1, n2){
+//     return n1 + n2;
+// }
+// console.log("10 + 2 é: " + soma(10,2));
+
+
 /* Date */
 // var d = new Date();
 // alert(d.getDate() + " " + d.getMonth() + " " + d.getFullYear());
